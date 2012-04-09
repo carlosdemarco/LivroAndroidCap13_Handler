@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="br.livro.android.cap13"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+	<application android:icon="@drawable/icon" 
+		android:theme="@android:style/Theme.Light">
+		<activity android:name=".splashscreen.TelaSplashScreenRunnable" 
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="Menu" />
+		<activity android:name="SomaSimples" />
+		<activity android:name="SomaThread" />
+		<activity android:name="ExemploHandler" />
+		<activity android:name="SomaComHandler" />
+		<activity android:name="SomaComHandlerRunnable" />
+		<activity android:name=".splashscreen.TelaSplashScreen" />
+		<activity android:name="ThreadSleepHandler" />
+	</application>
+	
+	<uses-sdk android:minSdkVersion="2" />
+</manifest>
